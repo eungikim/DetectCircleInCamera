@@ -319,7 +319,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 		}
 		*/
 		
-		if (xwidth > x_SCREEN_CENTER)
+		if (xwidth > x_SCREEN_CENTER * (120 / 100))
 		{
 			
 		
@@ -330,7 +330,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 			
 		}
 		
-		if (xwidth < x_SCREEN_CENTER)
+		if (xwidth < x_SCREEN_CENTER * (80 / 100))
 		{
 
 			message = "2";
@@ -342,7 +342,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 		
 		
 		
-		if (yhight > y_SCREEN_CENTER)
+		if (yhight > y_SCREEN_CENTER * (120 / 100))
 		{
 			message = "3";
 			sendData = message.getBytes();
@@ -350,7 +350,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 			
 		}
 		
-		if (yhight < y_SCREEN_CENTER)
+		if (yhight < y_SCREEN_CENTER * (80 / 100))
 		{
 			
 			
